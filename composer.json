@@ -1,0 +1,20 @@
+{
+    "name": "thefrozenfire/zf2-sms-router",
+    "description": "SMS Router",
+    "require": {
+        "zendframework/zendframework": "2.2.*"
+    },
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Justin Martin",
+            "email": "frozenfire@thefrozenfire.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-0": {
+            "SmsRouter\\": "src/"
+        }
+    }
+}
